@@ -12,6 +12,11 @@
     
 </form>
 
+{!!Form::open() !!}
+
+    {!!Form::text('username', null, ['placeholder' => 'Edit Title']) !!}
+    
+{!! Form::close() !!}
 
 @endsection
 
