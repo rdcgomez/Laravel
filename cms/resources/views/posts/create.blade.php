@@ -16,7 +16,12 @@
 
     {!!Form::label('username', 'Title:')!!}
     {!!Form::text('username', null, ['placeholder' => 'Edit Title']) !!}
+
+<div class="form-group">
+
+    {!!Form::submit('Create New Post', ['class' => 'btn btn-primary'])!!}
     
+</div>
 
 {!! Form::close() !!}
 
