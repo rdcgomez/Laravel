@@ -12,6 +12,7 @@
 */
 
 Route::resource('/', 'StoreUserController');
+
 Route::get('/mypagedatabase', 'VisitorsController@index')->name('show.all');
 Route::get('/mypageupdate/{id}', 'VisitorsController@edit')->name('edit.user');
 Route::put('/mypageupdate/{id}', 'VisitorsController@update')->name('update.user');
