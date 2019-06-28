@@ -6,9 +6,9 @@
     "type": "project",
     "require": {
         "php": ">=5.5.9",
-        "laravel/framework": "5.4.*",
-        "laravelcollective/html": "5.4.*",
-        "cviebrock/eloquent-sluggable": "4.2.*",
+        "laravel/framework": "5.5.*",
+        "laravelcollective/html": "5.5.*",
+        "cviebrock/eloquent-sluggable": "4.3.*",
         "laravel/tinker": "^1.0"
     },
     "require-dev": {
